@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="">
+        nombre <br>
+        <input type="text" name="nombre" maxlength="10" required="" placeholder="ingrese su nombre"> <br>
+        Peso<br>
+         <input type="number" name="Peso" disabled> <br>
+ Edad <br>
+         <input type="number" name="edad" min="1" required="" placeholder="ingrese su edad"> <br>
+         contraseña <br>
+          <input type="password" name="password" placeholder="ingrese su contraseña"> <br>
+          seleccione su sexo <br>
+           <input type="radio" name="genero">Femenino<br>
+           <input type="radio" name="genero">Masculino<br>
+           <input type="radio" name="genero">otro<br>
+        seleccione una mascota: <br>
+        <select name="mascotas">
+<option value="Perro">Perro</option>
+<option value="Gato">Gato</option>
+<option value="Loro">Loro</option>
+<option value="Gallina">Gallina</option>
+        </select><br>
+        <textarea name="descripcion" rows="S" cols="40"></textarea><br><br>
+         <!-- casillas de verificacion - podemos seleccionar varias opciones de un conjunto de opciones -->
+        <input type="checkbox" name="deporte1" value="Futbol">futbol<br>
+        <input type="checkbox" name="deporte2" value="Rugby">Rugby<br>
+        <input type="checkbox" name="deporte3" value="Natacion">Natacion<br>
+         <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
